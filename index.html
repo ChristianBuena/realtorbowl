@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Realtor Bowl</title>
+  <meta name="description" content="Realtor Bowl - Fantasy Football League for California Realtors. We work hard so that we can play hard!">
+  <meta property="og:site_name" content="Realtor Bowl">
+  <meta property="og:title" content="Realtor Bowl">
+  <meta property="og:url" content="https://www.realtorbowl.com">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5d53012f6636c10001f3aa7c/1566528179507-QT8LX7L2EUWKUY37SHJG/favicon.ico?format=100w">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== SECTION 1: HERO — "Real Estate Expert" ====== -->
+  <section class="index-section index-section--hero" id="real-estate-expert" data-section-id="real-estate-expert">
+    <div class="section-bg" style="background-image: url('nc_assets/img/the-league.png');"></div>
+    <h1 class="hero-title">REALTOR BOWL</h1>
+    <div class="section-content">
+      <p class="hero-subtext-main">fantasy football league for california realtors!</p>
+      <p class="hero-subtext-tagline">We work hard so that we can play hard!</p>
+      <div class="hero-cta-container">
+        <a href="realtor-bowl.html" class="hero-cta-btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 2: "How it Works" ====== -->
+  <section id="how-it-works" data-section-id="how-it-works">
+    <div class="content-section content-section--centered">
+      <h2>&nbsp;<strong>Space is limited. Sign up today!</strong></h2>
+      <p>Sign up <strong>NOW</strong>!!! We will be scheduling the draft ASAP!</p>
+
+      <div class="spacer--sm"></div>
+
+      <p>Realtor Bowl is a Fantasy Football league designed just for real estate professionals in the state of California. Whether you're closing deals or closing out the competition, the Realtor Bowl is the place to test your football knowledge while networking with the best in the business.</p>
+
+      <p>Each team manager picks their roster from real NFL players and earns points based on their real-life performance each week. Manage your team, make trades, pick up free agents, and battle it out for weekly matchups and the ultimate championship title!</p>
+
+      <p><strong>The game is powered by ESPN Fantasy Football</strong> — so you get a world-class platform for drafting, scoring, and tracking your season progress.</p>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 3: "Realtor San Diego" — Stakes/Prizes with parallax ====== -->
+  <section class="collage-section" id="realtor-san-diego" data-section-id="realtor-san-diego">
+    <div class="section-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/5d53012f6636c10001f3aa7c/1566524250699-W6W3YXTF83CEIDNZEKRC/adult-apartment-ball-1449056.jpg?format=2500w');"></div>
+    <div class="collage-inner">
+      <div class="collage-image">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5d53012f6636c10001f3aa7c/1565748765281-NDFD1A0WXV8GSCZ107FG/114701.jpg?format=1000w"
+          alt="Football trophy"
+          loading="lazy"
+        >
+      </div>
+      <div class="collage-text">
+        <h3>THE STAKES</h3>
+        <p><strong>$200 BUY-IN</strong></p>
+        <div class="spacer--sm"></div>
+        <p><strong>1ST PRIZE - $900</strong></p>
+        <p><strong>2ND PRIZE - $400</strong></p>
+        <p><strong>3RD PRIZE - $200</strong></p>
+        <p><strong>GRAND PRIZE&nbsp; -&nbsp; Will win 25% of all league entrance fees (estimated $2,500-$10,000)</strong></p>
+        <div class="spacer--sm"></div>
+        <p><strong>LET'S HAVE SOME FUN!!</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 4: "Realtor Bowl" — Sign-up Form ====== -->
+  <section id="realtor-bowl" data-section-id="realtor-bowl">
+    <div class="form-section">
+      <h2><strong>I'm in!! Let's do this.</strong></h2>
+      <p>Fill out the form below to secure your spot in the Realtor Bowl. Space is limited!</p>
+
+      <form id="signup-form" class="signup-form">
+        <div class="form-row">
+          <div>
+            <label for="first-name">First Name <span style="color:#c00;">*</span></label>
+            <input type="text" id="first-name" placeholder="First Name" required>
+          </div>
+          <div>
+            <label for="last-name">Last Name <span style="color:#c00;">*</span></label>
+            <input type="text" id="last-name" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="form-row form-row--full">
+          <div>
+            <label for="email">Email Address <span style="color:#c00;">*</span></label>
+            <input type="email" id="email" placeholder="Email Address" required>
+          </div>
+        </div>
+        <div class="form-row form-row--full">
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Phone Number">
+          </div>
+        </div>
+        <div class="form-row form-row--full">
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Subject">
+          </div>
+        </div>
+        <div class="form-row form-row--full">
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Message" rows="4"></textarea>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <button type="submit" class="form-submit-btn">Submit</button>
+        </div>
+        <div id="form-status" class="form-status"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT BAR ====== -->
+  <div class="contact-bar">
+    <h3>
+      <a href="tel:949-774-7867"><strong>949-774-7867</strong></a>
+      &nbsp;|&nbsp;
+      <a href="mailto:info@realtorbowl.com"><strong>info@realtorbowl.com</strong></a>
+    </h3>
+  </div>
+
+  <!-- ====== CREDIT LINE ====== -->
+  <div class="credit-line">
+    <a href="https://www.strategydrivenmarketing.com/" target="_blank">Site designed by Strategy Driven Marketing</a>
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Realtor Bowl</div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#real-estate-expert">Real Estate Expert</a></li>
+          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="#realtor-san-diego">Realtor San Diego</a></li>
+          <li><a href="#realtor-bowl">Realtor Bowl</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/realtorbowl" target="_blank" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== INDEX NAV (right side) ====== -->
+  <nav class="index-nav">
+    <a href="#real-estate-expert" class="active">
+      <span class="nav-dot"></span>
+      <span class="nav-label">Real Estate Expert</span>
+    </a>
+    <a href="#how-it-works">
+      <span class="nav-dot"></span>
+      <span class="nav-label">How it Works</span>
+    </a>
+    <a href="#realtor-san-diego">
+      <span class="nav-dot"></span>
+      <span class="nav-label">Realtor San Diego</span>
+    </a>
+    <a href="#realtor-bowl">
+      <span class="nav-dot"></span>
+      <span class="nav-label">Realtor Bowl</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
